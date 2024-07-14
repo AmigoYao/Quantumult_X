@@ -7,7 +7,7 @@
 
 ##############################################
 
-# 重定向到apis.bilin.eu.org
+# 重定向到以下域名
 hostname = apis.bilin.eu.org
   
 ^https://tools.lancely.tech/apple/app-version/US/ url 302 https://apis.bilin.eu.org/history/
