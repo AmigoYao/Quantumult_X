@@ -10,4 +10,4 @@
 hostname = sns-video-bd.xhscdn.com
 
 # 302  
-http://sns-video-bd.xhscdn.com/stream/10/7/.*_7.mp4 url 302 AmigoYao
+http://sns-video-bd.xhscdn.com/stream/d+/d+/.*_d+.mp4 url 302 AmigoYao
