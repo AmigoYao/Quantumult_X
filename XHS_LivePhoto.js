@@ -9,5 +9,5 @@
 # 主机名
 hostname = sns-video-bd.xhscdn.com
 
-# 302  
-http://sns-video-bd.xhscdn.com/stream/d+/d+/.*_d+.mp4 url 302 AmigoYao
+# response-body
+https://edith.xiaohongshu.com/api/sns/v1/note/live_photo/save url response-body http://sns-video-qc.xhscdn.com/stream/\d+/\d+/[a-zA-Z0-9]+_\d+.mp4(?:\?sign=[a-zA-Z0-9]+&t=.{8})? response-body AmigoYao
