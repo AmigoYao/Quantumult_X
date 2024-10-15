@@ -10,4 +10,4 @@
 hostname = sns-video-bd.xhscdn.com
 
 # 302  
-http://sns-video-bd.xhscdn.com/stream/10/7/.*_7.mp4 url 302 haha
+http://sns-video-bd.xhscdn.com/stream/10/7/.*_7.mp4 url 302 右侧艾特后面填写链接
