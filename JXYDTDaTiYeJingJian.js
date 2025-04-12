@@ -14,7 +14,7 @@
 hostname=kaoshiapi.ksedt.com,pic*.*cdn.com.cn
 
 [Rewrite]
-https://kaoshiapi.ksedt.com/sns/exam/getQuestionInfo url script-response-body 
+https://kaoshiapi.ksedt.com/sns/exam/getQuestionInfo url script-response-body https://raw.githubusercontent.com/AmigoYao/Quantumult_X/refs/heads/main/JXYDTDaTiYeJingJian.js
 
 
 if (-1 !== $request.url.indexOf("https://kaoshiapi.ksedt.com/sns/exam/getQuestionInfo")) {
