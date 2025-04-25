@@ -81,7 +81,7 @@ utoken.umeng.com url reject
 # delete obj.result.examPageLoadADSwitch;
 # $done({body: JSON.stringify(obj)});
 # -----------------------------------------------------------
-^https:\/\/api\.ksedt\.com\/api\/config\/, script-response-body=https://raw.githubusercontent.com/AmigoYao/Quantumult_X/refs/heads/main/JXYDTJingJian.conf, requires-body=true
+^https:\/\/api\.ksedt\.com\/api\/config\/ url script-response-body=https://raw.githubusercontent.com/AmigoYao/Quantumult_X/refs/heads/main/JXYDTJingJian.js, requires-body=true
 
 [mitm]
 hostname = richmanrules.ksedt.com, gouche.ksedt.com, muses.ksedt.com, op.ksedt.com, api.ksedt.com
