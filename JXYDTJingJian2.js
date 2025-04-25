@@ -83,5 +83,4 @@ utoken.umeng.com url reject
 # -----------------------------------------------------------
 ^https:\/\/api\.ksedt\.com\/api\/config\/ url script-response-body https://raw.githubusercontent.com/AmigoYao/Quantumult_X/refs/heads/main/JXYDTJingJian.js
 
-[mitm]
 hostname = richmanrules.ksedt.com, gouche.ksedt.com, muses.ksedt.com, op.ksedt.com, api.ksedt.com
