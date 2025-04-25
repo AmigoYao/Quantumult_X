@@ -1,6 +1,3 @@
-
-# ─────────────────────────────
-# 【简单域名规则】
 mon.zijieapi.com url reject
 lf-ad-ies.bytecdn.cn url reject
 i.snssdk.com url reject
@@ -52,19 +49,12 @@ errnewlog.umeng.com url reject
 ucc.umeng.com url reject
 ulogs.umeng.com url reject
 utoken.umeng.com url reject
-
 # ─────────────────────────────
-# 【原 [Rewrite] 里的请求屏蔽规则】
 ^https:\/\/richmanrules\.ksedt\.com\/serverConfig\/3\/adConfig\.json url reject
 ^https:\/\/gouche\.ksedt\.com\/config\/popup\/info$ url reject
 ^https:\/\/richmanrules\.ksedt\.com\/intellectWaterfallBidding\/find$ url reject
 ^https:\/\/op\.ksedt\.com\/jxedtLive\/liveIntroduceResource url reject
 ^https:\/\/richmanrules\.ksedt\.com\/intellectWaterfall\/find$ url reject
-
-# ─────────────────────────────
-# 【HTTP 响应体处理】（删除指定 JSON 字段，须借助脚本）
-# 请将下列 js 脚本保存为 removeAdKeys.js：
-#
 # -----------------------------------------------------------
 # let obj = JSON.parse($response.body);
 # delete obj.result.homead;
