@@ -2,4 +2,4 @@ host, ib.snssdk.com, 日本节点
 host, apis.bilin.eu.org, direct
 host, www.iios.club, direct
 host, qianling.pw, direct
-host, data.bilibili.com, reject
+# host, data.bilibili.com, reject
