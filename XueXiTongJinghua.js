@@ -9,7 +9,7 @@
 # 重写以下域名
 hostname = apps.chaoxing.com, home-yd.chaoxing.com, appswh.chaoxing.com
 
-https://apps.chaoxing.com/apis/recent/getRecord.jspx\?puid\= url response-body \{\"cataName\":\".*?\",\"cataid\":\d+,\"cfid\":-?\d+,\"content\":\{\"resTitle\":\"学生大礼包\",\"resUrl\":\".*?\",\"resLogo\":\".*?\",\"resUid\":\".*?\",\"toolbarType\":\d+,\"allowUpdate2\":true|false\},\"id\":\d+,\"key\":\".*?\",\"norder\":\d+,\"rid\":\d+,\"showInHp\":\d+,\"speTop\":\d+,\"topsign\":\d+,\"updateTime2\":\d+\} response-body AmigoYao
+https://apps.chaoxing.com/apis/recent/getRecord.jspx\?puid\= url response-body \{\"cataName\":\".*?\",\"cataid\":\d+,\"cfid\":-?\d+,\"content\":\{\"resTitle\":\"学生大礼包\",\"resUrl\":\".*?\",\"resLogo\":\".*?\",\"resUid\":\".*?\",\"toolbarType\":\d+,\"allowUpdate2\":true|false\},\"id\":\d+,\"key\":\".*?\",\"norder\":\d+,\"rid\":\d+,\"showInHp\":\d+,\"speTop\":\d+,\"topsign\":\d+,\"updateTime2\":\d{13}\} response-body AmigoYao
 
 https://home\-yd.chaoxing.com/apis/data/getAdsRecommend\?token\= url reject
 
