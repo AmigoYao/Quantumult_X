@@ -3,3 +3,5 @@ host, apis.bilin.eu.org, direct
 host, www.iios.club, direct
 host, qianling.pw, direct
 # host, data.bilibili.com, reject
+host, bixi.alican.com, reject
+
