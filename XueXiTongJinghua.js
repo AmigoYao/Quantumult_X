@@ -9,7 +9,7 @@
 # 重写以下域名
 hostname = apps.chaoxing.com, home-yd.chaoxing.com, appswh.chaoxing.com
 
-https://apps.chaoxing.com/apis/recent/getRecord.jspx\?puid\= url response-body \{\\"cataName\\":\".*?\\",\\"cataid\\":-?\\d+,\\"cfid\\":-?\\d+,\\"content\\":\{\\"resTitle\\":\\"学生大礼包\\",\\"resUrl\\":\".*?\\",\\"resLogo\\":\".*?\\",\\"resUid\\":\\"common_xueshengquanyi\\",\\"toolbarType\\":-?\\d+,\\"allowUpdate2\\":(true|false)\},\\"id\\":-?\\d+,\\"key\\":\\"common_xueshengquanyi\\",\\"norder\\":-?\\d+,\\"rid\\":-?\\d+,\\"showInHp\\":-?\\d+,\\"speTop\\":-?\\d+,\\"topsign\\":-?\\d+,\\"updateTime2\\":\\d+\}, response-body ,
+https://apps.chaoxing.com/apis/recent/getRecord.jspx\?puid\= url response-body \{\\"cataName\\":\".*?\\",\\"cataid\\":-?\\d+,\\"cfid\\":-?\\d+,\\"content\\":\{\\"resTitle\\":\\"学生大礼包\\",\\"resUrl\\":\".*?\\",\\"resLogo\\":\".*?\\",\\"resUid\\":\\"common_xueshengquanyi\\",\\"toolbarType\\":-?\\d+,\\"allowUpdate2\\":(true|false)\},\\"id\\":-?\\d+,\\"key\\":\\"common_xueshengquanyi\\",\\"norder\\":-?\\d+,\\"rid\\":-?\\d+,\\"showInHp\\":-?\\d+,\\"speTop\\":-?\\d+,\\"topsign\\":-?\\d+,\\"updateTime2\\":\\d+\},\{ response-body \{
 
 https://home\-yd.chaoxing.com/apis/data/getAdsRecommend\?token\= url reject
 
