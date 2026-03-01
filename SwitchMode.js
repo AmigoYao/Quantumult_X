@@ -1,7 +1,7 @@
 /*
 [rewrite_local]
 # 拦截所有指定的控制命令 URL
-^http://slightly\.qx/(all_direct|all_proxy|filter|reload) url script-echo-response https://raw.githubusercontent.com/Sliverkiss/QuantumultX/refs/heads/main/Script/switchMode.js
+^http://slightly\.qx/(all_direct|all_proxy|filter|reload) url script-echo-response https://raw.githubusercontent.com/AmigoYao/Quantumult_X/refs/heads/main/SwitchMode.js
 
 [mitm]
 hostname = slightly.qx
