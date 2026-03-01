@@ -1,10 +1,10 @@
 /*
 [rewrite_local]
 # 拦截所有指定的控制命令 URL
-^http://slightly\.qx/(all_direct|all_proxy|filter|reload) url script-echo-response https://raw.githubusercontent.com/AmigoYao/Quantumult_X/refs/heads/main/SwitchMode.js
+^http://slightly\.qx/(direct|proxy|filter|reload) url script-echo-response https://raw.githubusercontent.com/AmigoYao/Quantumult_X/refs/heads/main/SwitchMode.js
 
 [mitm]
-hostname = slightly.qx
+hostname = q.x
 */
 
 const url = $request.url;
@@ -16,7 +16,7 @@ const okResponse = {
         "Connection": "Close", 
         "Content-Type": "text/plain; charset=utf-8" 
     },
-    body: "good"
+    body: "ok"
 };
 
 // 切换运行模式的封装函数
@@ -33,12 +33,12 @@ function switchMode(modeName, notifyTitle, notifyMsg) {
 }
 
 // 路由判断
-if (url.includes("/all_direct")) {
+if (url.includes("/direct")) {
     // 切换到直连模式
     switchMode("all_direct", "模式切换", "已切换为【全部直连】模式")
         .finally(() => $done(okResponse));
 
-} else if (url.includes("/all_proxy")) {
+} else if (url.includes("/proxy")) {
     // 切换到代理模式
     switchMode("all_proxy", "模式切换", "已切换为【全部代理】模式")
         .finally(() => $done(okResponse));
