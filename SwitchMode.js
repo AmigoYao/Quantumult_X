@@ -1,10 +1,10 @@
 /*
 [rewrite_local]
 # 拦截所有指定的控制命令 URL
-^http://q\.x/(direct|proxy|filter|reload) url script-echo-response https://raw.githubusercontent.com/AmigoYao/Quantumult_X/refs/heads/main/SwitchMode.js
+^http://1qx.com/(direct|proxy|filter|reload) url script-echo-response https://raw.githubusercontent.com/AmigoYao/Quantumult_X/refs/heads/main/SwitchMode.js
 
 [mitm]
-hostname = q.x
+hostname = 1qx.com
 */
 
 const url = $request.url;
